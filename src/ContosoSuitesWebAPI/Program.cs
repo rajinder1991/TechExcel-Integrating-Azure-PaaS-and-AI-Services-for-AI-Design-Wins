@@ -142,3 +142,7 @@ app.MapPost("/MaintenanceCopilotChat", async ([FromBody]string message, [FromSer
     .WithOpenApi();
 
 app.Run();
+
+
+
+
