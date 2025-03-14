@@ -68,7 +68,7 @@ var deployments = [
     }
     sku: {
       name: 'GlobalStandard'
-      capacity: 40
+      capacity: 8
     }
   }
   {
@@ -323,3 +323,4 @@ output application_name_dash string = webapps.outputs.webdash.name
 output application_url_dash string = webapps.outputs.webdash.url
 output function_app_name string = functionapp.outputs.functionAppName
 output apiManagementServiceName string = apiManagementService.name
+
